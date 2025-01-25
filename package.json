@@ -1,0 +1,20 @@
+{
+  "name": "packagebrowser",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "throwpackages",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.10.10",
+    "electron": "^34.0.1",
+    "typescript": "^5.7.3"
+  }
+}
